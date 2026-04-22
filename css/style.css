@@ -28,6 +28,12 @@ body {
   background-image: url(/img/storms.PNG);
   background-position: center;
   margin-top: 60px;
+  transition: all 0.3s ease-in;
+  box-shadow: 2px 4px 10px black;
+}
+.dashboard:hover {
+  box-shadow: 4px 6px 12px black;
+  transform: scale(1.1);
 }
 .dashboard-overlay {
   position: absolute;
