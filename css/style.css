@@ -20,12 +20,14 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 584px;
+  width: 580px;
   height: fit-content;
   border-radius: 8px;
   padding: 12px;
   border: 2px solid rgb(97, 97, 97);
-  background-image: url(/img/storms.PNG);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(/img/storms.PNG);
   background-position: center;
   margin-top: 60px;
   transition: all 0.3s ease-in;
