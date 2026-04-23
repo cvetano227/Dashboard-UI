@@ -30,6 +30,20 @@ body {
   margin-top: 60px;
   transition: all 0.3s ease-in;
   box-shadow: 2px 4px 10px black;
+
+  animation-name: moveInLeft;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in;
+}
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 .dashboard:hover {
   box-shadow: 4px 6px 12px black;
